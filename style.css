@@ -1,0 +1,21 @@
+.container { width: 500px; margin: 0 auto;}
+.cell {
+  float: left;
+  display: inline;
+  margin-left: 1px;
+}
+.cell {
+    width: 60px;
+    border: 1px red solid;
+}
+.first {margin-left: 0;clear: left;}
+
+/* clearfix */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
